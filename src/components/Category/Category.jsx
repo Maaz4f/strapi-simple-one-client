@@ -16,6 +16,7 @@ const Category = () => {
                             ?.attributes?.title
                     }
                 </div>
+console.log(data);
                 <Products innerPage={true} products={data} />
             </div>
         </div>
